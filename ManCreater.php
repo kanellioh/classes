@@ -14,4 +14,5 @@ $sergey = new Human();
 
 $sergey->name = "Сергей";
 
-$sergey->manage = 22;
+$sergey->getAge(22);
+
