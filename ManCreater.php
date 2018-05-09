@@ -8,12 +8,12 @@ function autoLoader($class){
 }
 spl_autoload_register('autoLoader');
 
-use Human;
 
-$sergey = new Human();
+$sergey = new Human("РФ", "Европеец");
 
-$sergey->name = "Сергей";
+echo $sergey->name = "Сергей";
 
 $sergey->getAge(22);
 
+print_r($sergey);
 // СЕЙЧАС СДЕЛАЮ КОММИТ ИЗ ШТОРМА

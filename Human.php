@@ -8,9 +8,19 @@
 
 class Human
 {
+
+    public $country = "Страна";
+    public $humanrace = "Раса";
+    public function __construct($a, $b)
+    {
+        $this->country = $a;
+        $this->humanrace = $b;
+    }
+
     public $name = "";
     private $age;
-    private function getAge($manage){
+    public function getAge($manage){
         $this->age = $manage;
     }
+
 }
